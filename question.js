@@ -1,27 +1,27 @@
-var questionschoice =[
+var questions = [
     {
         title: "What is the capital of Australia?",
-        choices: ["<java>", "<body>", "<script>", "<img>"],
-        answer: "<script>"
+        multiChoice: ["Canberra", "Sydney", "Perth", "Ottawa"],
+        answer: "Canberra"
     },
     {
         title: "What is the longest river in the world?",
-        choices: ["<java>", "<body>", "<script>", "<img>"],
-        answer: "<script>"
+        multiChoice: ["Nile", "Amazon", "Congo", "Niger"],
+        answer: "Nile"
     },
     {
         title: "What is the second largest continent?",
-        choices: ["<java>", "<body>", "<script>", "<img>"],
-        answer: "<script>"
+        multiChoice: ["Asia", "Africa", "Europe", "Antarctica"],
+        answer: "Africa"
     },
     {
         title: "Name one of the national animals of the USA?",
-        choices: ["<java>", "<body>", "<script>", "<img>"],
-        answer: "<script>"
+        multiChoice: ["The bald eagle ", "Peocock", "Parrot", "Owl"],
+        answer: "The bald eagle"
     },
     {
         title: "Which river flows through Paris?",
-        choices: ["<java>", "<body>", "<script>", "<img>"],
-        answer: "<script>"
+        multiChoice: ["Seine River", "Amazon", "Bievre", "Colorado"],
+        answer: "Seine River"
     },
 ];
